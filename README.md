@@ -1,35 +1,27 @@
 # Squirts
 
 A well-known indie game implemented in JavaScript, made in a hotel room in Warsaw, Poland.
+Original authors : [Klemen Slavič](http://about.me/klemen.slavic) and [Marko Novak](http://dribbble.com/KillerBee). 
 
-[Play it here](http://is.gd/squirts)
+[Play it here](http://wendigo.sx/squirts)
 
-## Build
+Licenced under MIT, feel free to (re)use it !
 
-Install the NPM packages:
 
-```bash
-npm install
-```
+## Requirements :
 
-Build using Grunt:
+- nodeJS
 
-```bash
-./node_modules/.bin/grunt
-```
+
+## Quickstart :
+
+1. `npm install`
+1. `grunt`
+
+Then copy "build/game.min.js" to "app/js/".
 
 If you'd like to continuously update the game while hacking on the code, run the `watch` Grunt task:
 
 ```bash
-./node_modules/.bin/grunt watch
+grunt watch
 ```
-
-## MIT Licensed
-
-Copyright (c) 2012+ Klemen Slavič and Marko Novak
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
