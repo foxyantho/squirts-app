@@ -73,14 +73,14 @@ window.addEventListener('load', function() {
     // Handle time acceleration keys to slow down or speed up time
     // NOTE: this handler will be refactored into a separate Controller
     //       class that will issue commands to the game and the world.
-    document.body.addEventListener('keydown', function(ev) {
+    /*document.body.addEventListener('keydown', function(ev) {
         var key = String.fromCharCode(ev.keyCode);
         if (key.toLowerCase() == 'a') {
             Squirts.game.world.timeMultiplier = Math.max(0.125, Squirts.game.world.timeMultiplier / 2);
         } else if (key.toLowerCase() == 's') {
             Squirts.game.world.timeMultiplier = Math.min(8, Squirts.game.world.timeMultiplier * 2);
         }
-    }, false);
+    }, false);*/
 
     // Export the game
     this.Squirts = Squirts;
