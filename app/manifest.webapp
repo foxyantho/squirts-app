@@ -1,0 +1,15 @@
+{
+	"name": "Squirts",
+	"description": "Squirts them all, before being squirted !",
+	"launch_path": "/index.html",
+	"icons": {
+		"512": "/assets/icon-512.png",
+		"128": "/assets/icon-128.png",
+		"64": "/assets/icon-64.png",
+		"60": "/assets/icon-60.png"
+	},
+	"developer": {
+		"name": "Wendigo",
+		"url": "http://wendigo.sx/squirts"
+	}
+}
