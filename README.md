@@ -1,11 +1,12 @@
 # Squirts
 
 A well-known indie game implemented in JavaScript, made in a hotel room in Warsaw, Poland.
+
 Original authors : [Klemen Slavič](http://about.me/klemen.slavic) and [Marko Novak](http://dribbble.com/KillerBee). 
 
-[Play it here](http://wendigo.sx/squirts)
-
-Licenced under MIT, feel free to (re)use it !
+ Licenced under MIT, feel free to (re)use it !
+ 
+ [Play it here (FR)](http://wendigo.sx/squirts)
 
 
 ## Requirements :
